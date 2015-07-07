@@ -7,12 +7,7 @@
 <body>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Portfolio</a>
-            <ul class="right hide-on-med-and-down">
-                {{> navItems}}
-            </ul>
-
-            <ul id="nav-mobile" class="side-nav">
+            <ul id="nav-mobile" class="side-nav fixed">
                 {{> navItems}}
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -144,9 +139,15 @@
 </body>
 
 <template name="navItems">
+    <li class="logo">
+        <a id="logo-container" href="#" class="brand-logo">
+            <img src="matt.jpg" class="circle responsive-img">
+            <h5>Matt Meloncon</h5>
+        </a>
+    </li>
     <li><a href="#about">About</a></li>
-    <li><a href="#">Wylio</a></li>
-    <li><a href="#">MyBryan</a></li>
-    <li><a href="#">CAMS API</a></li>
-    <li><a href="#">Bryan College Apply Site</a></li>
+    <li><a href="#">Experience</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Skills</a></li>
+    <li><a href="#">Education</a></li>
 </Template>

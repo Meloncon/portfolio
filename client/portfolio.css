@@ -11,6 +11,25 @@ nav .brand-logo {
   color: #444;
 }
 
+ul.side-nav.fixed li.logo {
+    height: 300px;
+    padding: 0;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.side-nav.fixed li.logo:hover {
+    background-color: transparent;
+}
+
+#logo-container {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
 p {
   line-height: 2rem;
 }

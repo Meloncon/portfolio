@@ -5,10 +5,27 @@
  *
  * Made By MaterializeCSS.com
  */
+html {
+    background-color: #212121; /*#90a4ae;*/
+    color: #e0e0e0;
+}
 
 nav ul a,
-nav .brand-logo {
-  color: #444;
+nav {
+  color: #ffa726;
+}
+
+#nav-mobile li a {
+    color: #ffa726 !important;
+}
+
+#main-nav .brand-logo {
+    color: #ffa726;
+}
+
+.signature {
+    font-size: 150%;
+    float: right;
 }
 
 ul.side-nav.fixed li.logo {
@@ -35,33 +52,27 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #ffffff;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+#main-content {
+    padding-left: 240px;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+    #index-banner .section {
+        top: 0;
+    }
+
+    #main-content {
+        padding-left: 0;
+    }
 }
 
 

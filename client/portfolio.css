@@ -5,18 +5,33 @@
  *
  * Made By MaterializeCSS.com
  */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300);
+
 html {
     background-color: #212121; /*#90a4ae;*/
     color: #e0e0e0;
+
 }
+
+h3, h5, h4 {
+    font-family: "Roboto Condensed";
+    font-weight: 200;
+}
+
 
 nav ul a,
 nav {
   color: #ffa726;
 }
 
+#nav-mobile li {
+    padding: 0;
+}
+
 #nav-mobile li a {
-    color: #ffa726 !important;
+    padding: 0;
+    color: #0097a7 !important;
 }
 
 #main-nav .brand-logo {
@@ -75,6 +90,9 @@ p {
     }
 }
 
+.icons {
+    color: #ffd180;
+}
 
 .icon-block {
   padding: 0 15px;
@@ -82,4 +100,10 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.waves-effect.waves-melon .waves-ripple {
+ /* The alpha value allows the text and background color
+ of the button to still show through. */
+  background-color: rgba(255,209,128, 0.65);
 }

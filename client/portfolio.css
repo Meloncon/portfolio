@@ -110,6 +110,18 @@ footer.page-footer {
   margin: 0;
 }
 
+#social .fa {
+    font-size: 200%;
+}
+
+#social li {
+    float: left;
+}
+
+#social .social-padding {
+    padding-left: 15px;
+}
+
 .waves-effect.waves-melon .waves-ripple {
  /* The alpha value allows the text and background color
  of the button to still show through. */

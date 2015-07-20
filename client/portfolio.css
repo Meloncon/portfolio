@@ -113,6 +113,13 @@ p {
     border-style: none;
 }
 
+.flex-direction-nav a {
+    display: block;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+}
+
 .flexslider .slides > li {
     display: none;
     -webkit-backface-visibility: hidden;

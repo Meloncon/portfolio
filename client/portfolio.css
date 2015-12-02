@@ -113,26 +113,15 @@ p {
     border-style: none;
 }
 
-.flex-direction-nav a {
-    display: block;
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
+.mobile-pics-carousel div{
+  margin-right: 8px;
 }
 
-.flexslider .slides > li {
-    display: none;
-    -webkit-backface-visibility: hidden;
-    background-color: #616161; /*#ffffff;*/
-    text-align: center;
-}
-
-.flexslider .slides .mobileImg img {
-    width: 240px;
-    display: inline;
-}
-
-.flexslider .slides img {width: auto; display: inline;}
+/*.mobile-pics-carousel div img{
+  display: block;
+  width: 100%;
+  height: auto;
+}*/
 
 @media only screen and (max-width : 992px) {
     #index-banner .section {

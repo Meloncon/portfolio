@@ -3,23 +3,31 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
     $(".button-collapse").sideNav();
     $('.materialboxed').materialbox();
-    $('.slider').slider({height: 400});
+    $('.slider').slider({height: 600});
 
-    $("#carousel").flexslider({
-        animation: "slide",
-        controlNav: false,
-        animationLoop: false,
-        slideshow: false,
-        itemWidth: 210,
-        itemMargin: 5,
-        asNavFor: "#slider"
+    $(".desktop-carousel").owlCarousel({
+        items: 1
     });
 
-    $(".flexslider").flexslider({
-        animation: "slide",
-        controlNav: false,
-        animationLoop: false,
-        slideshow: false,
-        sync: "#carousel"
+    $(".mobile-pics-carousel").owlCarousel({
+        items: 3,
     });
+
+    // $("#carousel").flexslider({
+    //     animation: "slide",
+    //     controlNav: false,
+    //     animationLoop: false,
+    //     slideshow: false,
+    //     itemWidth: 210,
+    //     itemMargin: 5,
+    //     asNavFor: "#slider"
+    // });
+    //
+    // $(".flexslider").flexslider({
+    //     animation: "slide",
+    //     controlNav: false,
+    //     animationLoop: false,
+    //     slideshow: false,
+    //     sync: "#carousel"
+    // });
 });

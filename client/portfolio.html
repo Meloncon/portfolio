@@ -6,6 +6,13 @@
 </head>
 
 <body>
+</body>
+
+<template name="mainLayout">
+    {{> Template.dynamic template=home}}
+</template>
+
+<template name="home">
     <nav id="main-nav" class="cyan darken-1 center" role="navigation">
         <div class="nav-wrapper container">
             <a href="#" class="signature hide-on-med-and-up">Matt Meloncon</a>
@@ -417,7 +424,7 @@
             </div>
         </footer>
     </div>
-</body>
+</template>
 
 <template name="navItems">
     <li class="logo">
